@@ -1,0 +1,11 @@
+#SPDX-License-Identifier: MIT-0
+---
+# vars file for role/nginx_dep_role
+
+root_path: /var/www/html
+server_name: mynginx.local
+index_file: index.html
+allowed_ips:
+  - 192.168.1.50
+  - 192.168.1.60
+  - 192.168.1.70
